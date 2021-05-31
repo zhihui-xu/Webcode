@@ -31,11 +31,48 @@ a {
 
 /* 用户导航 */
 
-.top-nav .user {
+.top-nav .user-nav {
     float: right;
 }
 
+.top-nav .user-nav li {
+    float: left;
+    /* padding-top: 10px; */
+    margin: 0px 11px 0px 14px;
+    height: 43px;
+    line-height: 43px;
+}
+.user-nav .user-msg{
+    position: relative;
+    padding-top: 10px;
+}
+/* 消息红点 */
+.user-nav .user-msg img {
+    padding-bottom: 20px;
+}
+.user-msg span {
+    position: absolute;
+    left: 15px;
+    top: 2px;
+    display: inline-block;
+    color: #fff;
+    background-color: #D31A14;
+    width: 20px;
+    height: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 50%;
+}
 
+/* 用户头像 */
+.user-nav .user-icon {
+    width: 43px;
+}
+
+.user-nav i.icon {
+    float: right;
+    margin: 20px 0px 0px 5px;
+}
 /* 搜索框 */
 
 .top-nav .search {
@@ -56,7 +93,10 @@ a {
     line-height: 30px;
     border: 1px solid #e0e0e0;
 }
-
+/* 鼠标变成小手 */
+.search .search-course:hover {
+    cursor:pointer
+}
 
 /* 搜索框下拉框图标样式 */
 
