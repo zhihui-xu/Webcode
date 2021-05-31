@@ -1,0 +1,9 @@
+/* 倒三角 */
+
+.triangle-down {
+    border: 5px;
+    border-style: solid dashed dashed;
+    border-color: #666 transparent transparent;
+    width: 0;
+    height: 0;
+}

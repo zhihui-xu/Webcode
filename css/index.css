@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/* 头部上面部分 */
+
+body,
+a {
+    color: #666;
+}
+
+.top-nav {
+    width: 1190px;
+    margin: 0 auto;
+    height: 74px;
+    /* line-height: 74px; */
+    padding-top: 24px;
+    /* border: 1px solid blue; */
+}
+
+
+/* logo */
+
+.top-nav .logo {
+    float: left;
+}
+
+.top-nav .logo h1 {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+
+/* 用户导航 */
+
+.top-nav .user {
+    float: right;
+}
+
+
+/* 搜索框 */
+
+.top-nav .search {
+    margin: 0 265px 0 357px;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+/* 搜索框下拉框 */
+
+.search .search-course {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #e0e0e0;
+}
+
+
+/* 搜索框下拉框图标样式 */
+
+.search .sel-icon {
+    float: right;
+    margin: 13px 6px 5px;
+}
+
+.search .course-menu {
+    position: absolute;
+    left: -1px;
+    display: none;
+}
+
+.search .course-menu li {
+    border: 1px solid #e0e0e0;
+    width: 66px;
+    height: 30px;
+}
+
+.search .search-course:hover .course-menu {
+    display: block;
+}
+
+.course-menu li:hover {
+    background-color: #ccc;
+}
+
+
+/* 搜索框输入框 */
+
+.search input {
+    width: 400px;
+    height: 30px;
+    float: left;
+    border: 1px solid #e0e0e0;
+}
+
+
+/* 搜索框图标 */
+
+.search .search-icon {
+    position: absolute;
+    left: 435px;
+    top: 15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/search.gif) no-repeat;
+}
