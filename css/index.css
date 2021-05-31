@@ -1,9 +1,7 @@
 @charset "utf-8";
-
 /* 头部上面部分 */
 
-body,
-a {
+body, a {
     color: #666;
 }
 
@@ -16,7 +14,6 @@ a {
     /* border: 1px solid blue; */
 }
 
-
 /* logo */
 
 .top-nav .logo {
@@ -28,28 +25,31 @@ a {
     text-indent: -9999px;
 }
 
-
 /* 用户导航 */
 
 .top-nav .user-nav {
     float: right;
 }
 
-.top-nav .user-nav li {
+.top-nav .user-nav .user-folat {
     float: left;
     /* padding-top: 10px; */
     margin: 0px 11px 0px 14px;
     height: 43px;
     line-height: 43px;
 }
-.user-nav .user-msg{
+
+.user-nav .user-msg {
     position: relative;
     padding-top: 10px;
 }
+
 /* 消息红点 */
+
 .user-nav .user-msg img {
     padding-bottom: 20px;
 }
+
 .user-msg span {
     position: absolute;
     left: 15px;
@@ -65,6 +65,7 @@ a {
 }
 
 /* 用户头像 */
+
 .user-nav .user-icon {
     width: 43px;
 }
@@ -73,6 +74,63 @@ a {
     float: right;
     margin: 20px 0px 0px 5px;
 }
+
+.user-nav .userinfo-menu {
+    position: relative;
+}
+
+/* 用户头像下拉弹框 */
+
+.userinfo-menu .userinfo-menu-cover li {
+    border: 1px solid #e0e0e0;
+    width: 124px;
+    height: 40px;
+    text-align: center;
+}
+
+.userinfo-menu:hover {
+    cursor: pointer
+}
+
+.user-nav .userinfo-menu .userinfo-menu-cover {
+    position: absolute;
+    display: none;
+}
+
+.userinfo-menu:hover .userinfo-menu-cover {
+    display: block;
+}
+
+.userinfo-menu-cover li:hover {
+    background-color: #ccc;
+}
+
+/* 教师端下拉框 */
+.user-sel {
+    position: relative;
+}
+
+.user-sel:hover {
+    cursor: pointer;
+}
+.user-th-cover {
+    position: absolute;
+    display: none;
+}
+.user-sel:hover .user-th-cover{
+    display: block;
+}
+.user-th-cover li:hover {
+    background-color: #e0e0e0;
+}
+
+.user-th-cover li {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
 /* 搜索框 */
 
 .top-nav .search {
@@ -80,7 +138,6 @@ a {
     padding-top: 10px;
     position: relative;
 }
-
 
 /* 搜索框下拉框 */
 
@@ -93,9 +150,11 @@ a {
     line-height: 30px;
     border: 1px solid #e0e0e0;
 }
+
 /* 鼠标变成小手 */
+
 .search .search-course:hover {
-    cursor:pointer
+    cursor: pointer
 }
 
 /* 搜索框下拉框图标样式 */
@@ -125,7 +184,6 @@ a {
     background-color: #ccc;
 }
 
-
 /* 搜索框输入框 */
 
 .search input {
@@ -134,7 +192,6 @@ a {
     float: left;
     border: 1px solid #e0e0e0;
 }
-
 
 /* 搜索框图标 */
 
