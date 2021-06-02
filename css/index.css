@@ -204,3 +204,28 @@ body, a {
     height: 30px;
     background: url(../img/search.gif) no-repeat;
 }
+/* 头部下面部分 */
+.site-nav {
+    background-color: #3598db;
+}
+
+/* 版心盒子 */
+.site-nav-wap {
+    width: 1190px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* 左边导航部分 */
+.site-nav-item {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* 右边链接部分 */
+.right-site-link li {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
