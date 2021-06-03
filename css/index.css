@@ -237,7 +237,7 @@ a {
 }
 
 
-/* 左边色块 */
+/* 第二导航左边色块 */
 
 .site-nav-cover .nav-left-color {
     flex: 1;
@@ -297,9 +297,42 @@ a {
 }
 
 
-/* 右边色块 */
+/* 第二导航右边色块 */
 
 .site-nav-cover .nav-right-color {
     flex: 1;
     background-color: #e7594d;
+}
+
+/* banner 区域 */
+.h-banner {
+    position: relative;
+    width: 100%;
+}
+
+.h-banner .banner-img {
+    width: 100%;
+}
+
+.h-banner .slide-bar {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    top: 440px;
+    width: 90px;
+    height: 14px;
+    /* background-color: blueviolet; */
+}
+.h-banner .slide-bar-item {
+    float: left;
+}
+.h-banner .slide-bar-item a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 14px;
+    background: url("../img/ico_circle.png") no-repeat -58px -22px;
+}
+.h-banner .slide-bar-item a:hover {
+    background: url("../img/ico_circle.png") no-repeat -73px 0px;
 }
