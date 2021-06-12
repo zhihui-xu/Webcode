@@ -304,7 +304,9 @@ a {
     background-color: #e7594d;
 }
 
+
 /* banner 区域 */
+
 .h-banner {
     position: relative;
     width: 100%;
@@ -314,18 +316,22 @@ a {
     width: 100%;
 }
 
+
+/* banner 中间小圆点 */
+
 .h-banner .slide-bar {
     position: absolute;
     left: 50%;
     margin-left: -45px;
-    top: 440px;
+    top: 90%;
     width: 90px;
     height: 14px;
-    /* background-color: blueviolet; */
 }
+
 .h-banner .slide-bar-item {
     float: left;
 }
+
 .h-banner .slide-bar-item a {
     display: inline-block;
     width: 14px;
@@ -333,6 +339,72 @@ a {
     margin-right: 14px;
     background: url("../img/ico_circle.png") no-repeat -58px -22px;
 }
+
 .h-banner .slide-bar-item a:hover {
     background: url("../img/ico_circle.png") no-repeat -73px 0px;
+}
+
+
+/* 中间内容区域 */
+
+.main {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 课程头部 */
+
+.main .module-head {
+    height: 92px;
+}
+
+.main .module-head .module-title {
+    float: left;
+    font-size: 22px;
+    width: 1120px;
+    height: 22px;
+    line-height: 22px;
+    border-left: 7px solid #2db0f9;
+    padding-left: 12px;
+    margin: 35px 0;
+    color: #1a1a1a;
+}
+
+.main .module-head .module-title-link {
+    float: right;
+    font-size: 16px;
+    color: #5da7df;
+    line-height: 92px;
+}
+
+
+/* 课程内容 */
+
+.module-list-item {
+    float: left;
+    padding: 0 15px;
+}
+
+.module-list-item .module-name {
+    font-size: 14px;
+    width: 208px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* 底部 */
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 141px;
+    background-color: #373a43;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 141px;
 }
